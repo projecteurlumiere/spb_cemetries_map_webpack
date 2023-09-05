@@ -57,9 +57,9 @@ polygon.on('click',
     }, 500);
   });
 
-setTimeout(function () {
-  sidebar.show();
-}, 500);
+// setTimeout(function () {
+//   sidebar.show();
+// }, 500);
 
 // let myFilter = [
 //   'grayscale:100%',
