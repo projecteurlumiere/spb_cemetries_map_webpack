@@ -29,22 +29,23 @@ header {
 /* main */
 
 main {
-  display: grid;
-  margin-top: 6rem;
-  max-width: 65vw;
+  margin-top: 3rem;
+  /* max-width: 65vw;
   grid-template-areas: 
     "map  list"
-    "view view";
+    "view view"; */
 }
 
 /* map */
 
 #map {
   grid-area: map;
-  width: var(--map-width);
-  height: 500px;
+  padding-top: 5vh;
+  width: 100vw;
+  height: 65vh;
   justify-content: center;
   align-items: center;
+  /* filter: grayscale(80%); */
 }
 
 /* list */
