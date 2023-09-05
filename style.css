@@ -1,0 +1,83 @@
+/* general */
+
+:root {
+  --map-width: 600px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* header */
+
+h1 {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  width: 100vw;
+  background-color: rgb(221, 221, 221);
+  height: 3rem;
+}
+
+
+/* main */
+
+main {
+  display: grid;
+  margin-top: 6rem;
+  max-width: 65vw;
+  grid-template-areas: 
+    "map  list"
+    "view view";
+}
+
+/* map */
+
+#map {
+  grid-area: map;
+  width: var(--map-width);
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* list */
+
+#list {
+  grid-area: list;
+}
+
+/* view */
+
+#view {
+  grid-area: view;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: grid;
+  grid-template-areas: 
+    "pic name"
+    "pic address";
+}
+
+.list-preview-pic {
+  grid-area: pic;
+}
+
+.list-name {
+  grid-area: name;
+}
+
+.list-address {
+  grid-area: address;
+}
