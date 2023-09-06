@@ -1,17 +1,15 @@
 import "./style.css"
-import _a from 'leaflet'
-import _b from 'sidebar-v2/js/leaflet-sidebar'
+import L from 'leaflet'
+import sidebar from 'sidebar-v2/js/leaflet-sidebar'
 import api_key from './api_key'
 
 let map = L.map('map').setView([59.8965, 30.3264], 10);
 
 L.tileLayer(`https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}?api_key=${api_key}`, {
-	minZoom: 0,
-	maxZoom: 10,
+	minZoom: 10,
 	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	ext: 'png'
 }).addTo(map);
-
 
 L.polygon([
   [59.896563, 30.310181],
