@@ -1,7 +1,9 @@
 import "./style.css"
 import L from 'leaflet'
-import sidebar from 'sidebar-v2/js/leaflet-sidebar'
+import 'leaflet-sidebar-v2'
 import api_key from './api_key'
+
+// map
 
 let map = L.map('map').setView([59.8965, 30.3264], 10);
 
@@ -39,3 +41,5 @@ L.polygon([
   [59.898835, 30.301554],
   [59.896532, 30.303163]
 ]).addTo(map);
+
+// sidebar:
