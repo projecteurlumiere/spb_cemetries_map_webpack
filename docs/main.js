@@ -168,7 +168,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst api_key = \"c752503d-6fdc-485c-9b2f-b447b55fc800\"\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (api_key);\n\n//# sourceURL=webpack://spb_cemetries_map/./src/api_key.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst api_key = \"8065dac6-f337-4d92-93b4-af37a5f7d15a\"\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (api_key);\n\n//# sourceURL=webpack://spb_cemetries_map/./src/api_key.js?");
 
 /***/ }),
 
