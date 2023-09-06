@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "sidebar-v2": "^0.4.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "name": "spb_cemetries_map",
+  "version": "0.1",
+  "main": "main.js",
+  "repository": "git@github.com:projecteurlumiere/spb_cemetries_map.git",
+  "author": "projecteurlumiere <129510705+projecteurlumiere@users.noreply.github.com>",
+  "license": "none"
+}
